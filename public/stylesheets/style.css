@@ -1,0 +1,67 @@
+
+body {
+  padding-top: 54px;
+}
+
+#wrapper {
+  height:100%;
+  position: relative;
+  background: url("./../images/background.jpg") center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* 
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@media (max-width: 992px) {
+  #wrapper {
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media (max-width: 575px) {
+  #wrapper {
+    padding:0;
+  }
+} */
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+/* registerNewUserForm */
+.errorDiv {
+  margin-top:20px;
+}
+.errorDiv>ul {
+  list-style: none;
+}
+
+/* header */
+
+/* dashboard */
+.component_wrappers {
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
+/* main content */
+.card-body>h5>a>button {
+  margin-left:25px;
+}
+
+/* login form */
+#loginFormWRapper {
+  margin-top:50px;
+}

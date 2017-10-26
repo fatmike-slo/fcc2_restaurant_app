@@ -1,0 +1,6 @@
+- when in dashboard and click serach, stay in dashboard instead of being redirected to index (DONE)
+- build a system that stores who clicked for wich restaurant. Save in dashboard (DONE)
+- when user logs in, the search he did when not logged should remain when logged (DONE)
+- limit only one prenotation per user! (DONE)
+- implement twitter login
+- add a little bit of style

@@ -1,0 +1,93 @@
+
+
+{{>header}}
+
+    <!-- Page Content -->
+    <div class="container component_wrappers">
+    <p style="margin:0 auto; margin-top:120px; width:350px; color:#fff; font-size:1.5em;" class="text-center">Search a dinner location where friends from your city are going tonight. Find who's going and post your choice too by logging in or via your Twitter account</p>
+    <div class="row" style="margin-top:50px; margin-bottom:150px;">
+      <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+        <span>Trieste</span>
+          <form action="/dashboard/search" method="POST">
+        <div style="margin-bottom:80px;" class="input-group">
+            <input type="text" class="form-control" placeholder="Where are you at?" name="search">
+            <span class="input-group-btn">
+              <input type="submit" class="btn btn-default" type="button" value="Search">
+            </span>
+        </div>
+          </form>
+      </div>
+    </div>
+
+  {{#if searchPerformed}}
+      <div class="row">
+      {{#each data}}
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="{{this.url}}"><img class="card-img-top" src="{{this.image_url}}" alt=""></a>
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                <a href="{{this.url}}">{{this.name}}</a>
+              </h5>
+              <ul style="list-style:none;">
+                <img id="ratingImg" src="./../images/{{this.rating}}stars.png" alt="">
+                <li>Address: {{this.location.address1}}</li>
+                <li>City: {{this.location.city}},&nbsp;{{this.location.country}}</li>
+                <li>Contact: {{this.phone}}</li>
+              <!-- tle dodaj ali je prijavljen al ne -->
+                <li>Going:&nbsp;{{this.count}}</li>
+              </ul>
+              {{#if this.count}}
+
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Show who's going
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  {{#each this.usersGoing}}
+                  <li>{{this}}</li>
+                  {{/each}}
+                </ul>
+              </div>
+
+              {{/if}}
+              <!-- ugotovi kako poslat info o restauraciji ki sem jo kliknil, front end send post? -->
+              <form action="going/{{this.name}}" method="POST">
+                <input type="submit" value="klikzs">
+              </form>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+  {{/if}}
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- /.container -->
+  
+

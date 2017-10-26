@@ -1,0 +1,558 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - Capra Restaurant and caf ",
+    "totalResults": "587",
+    "searchTerms": "Capra Restaurant and caf ",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "003496906882318904273:8lt5v1mul_a"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - Capra Restaurant and caf ",
+    "totalResults": "587",
+    "searchTerms": "Capra Restaurant and caf ",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "003496906882318904273:8lt5v1mul_a"
+   }
+  ]
+ },
+ "context": {
+  "title": "fat image search"
+ },
+ "searchInformation": {
+  "searchTime": 0.581946,
+  "formattedSearchTime": "0.58",
+  "totalResults": "587",
+  "formattedTotalResults": "587"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Capra, Koper - Restaurant Reviews, Phone Number & Photos ...",
+   "htmlTitle": "\u003cb\u003eCapra\u003c/b\u003e, Koper - \u003cb\u003eRestaurant\u003c/b\u003e Reviews, Phone Number &amp; Photos ...",
+   "link": "https://www.tripadvisor.com/Restaurant_Review-g312722-d7599725-Reviews-Capra-Koper_Slovenian_Istria_Slovenian_Littoral_Region.html",
+   "displayLink": "www.tripadvisor.com",
+   "snippet": "Capra, Koper: See 600 unbiased reviews of Capra, rated 4.5 of 5 on TripAdvisor \nand ranked #1 of 98 restaurants in Koper.",
+   "htmlSnippet": "\u003cb\u003eCapra\u003c/b\u003e, Koper: See 600 unbiased reviews of \u003cb\u003eCapra\u003c/b\u003e, rated 4.5 of 5 on TripAdvisor \u003cbr\u003e\nand ranked #1 of 98 \u003cb\u003erestaurants\u003c/b\u003e in Koper.",
+   "cacheId": "0UcoOJqVBRMJ",
+   "formattedUrl": "https://www.tripadvisor.com/Restaurant_Review-g312722-d7599725- Reviews-Capra-Koper_Slovenian_Istria_Slovenian_Littoral_Region....",
+   "htmlFormattedUrl": "https://www.tripadvisor.com/\u003cb\u003eRestaurant\u003c/b\u003e_Review-g312722-d7599725- Reviews-\u003cb\u003eCapra\u003c/b\u003e-Koper_Slovenian_Istria_Slovenian_Littoral_Region....",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "311",
+      "height": "162",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRogrw9sEyhui0kNmo25u51yXqxfEy9uyqi-S67Xq95yYSiVUahJ3TjtBE"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Europe",
+      "title": "Europe"
+     },
+     {
+      "url": "Slovenia",
+      "title": "Slovenia"
+     },
+     {
+      "url": "Slovenian Littoral Region",
+      "title": "Slovenian Littoral Region"
+     },
+     {
+      "url": "Slovenian Istria",
+      "title": "Slovenian Istria"
+     },
+     {
+      "url": "Koper",
+      "title": "Koper"
+     },
+     {
+      "url": "Koper Restaurants",
+      "title": "Koper Restaurants"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "Capra, Koper - Restaurant Reviews, Phone Number & Photos - TripAdvisor",
+      "og:description": "Capra, Koper: See 600 unbiased reviews of Capra, rated 4.5 of 5 on TripAdvisor and ranked #1 of 98 restaurants in Koper.",
+      "og:image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/3d/c6/9d/restaurant-capra-s-interior.jpg",
+      "og:image:width": "550",
+      "og:image:height": "287",
+      "fb:pages": "5863091683",
+      "al:ios:app_name": "TripAdvisor",
+      "al:ios:app_store_id": "284876795",
+      "twitter:app:id:ipad": "284876795",
+      "twitter:app:id:iphone": "284876795",
+      "al:ios:url": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g312722-d7599725-Reviews-m33762-Capra-Koper_Slovenian_Istria_Slovenian_Littoral_Region.html",
+      "twitter:app:url:ipad": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g312722-d7599725-Reviews-m33762-Capra-Koper_Slovenian_Istria_Slovenian_Littoral_Region.html",
+      "twitter:app:url:iphone": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g312722-d7599725-Reviews-m33762-Capra-Koper_Slovenian_Istria_Slovenian_Littoral_Region.html"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://media-cdn.tripadvisor.com/media/photo-s/0f/3d/c6/9d/restaurant-capra-s-interior.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Capra's Kitchen | Mississauga, ON | (905) 916-1834",
+   "htmlTitle": "\u003cb\u003eCapra&#39;s\u003c/b\u003e Kitchen | Mississauga, ON | (905) 916-1834",
+   "link": "http://www.capraskitchen.com/",
+   "displayLink": "www.capraskitchen.com",
+   "snippet": "Capra's Kitchen is a Italian Restaurant located in the Clarkson - Lorne Park \nneighbourhood of Mississauga. Capra's Kitchen serves Italian, Mediterranean ...",
+   "htmlSnippet": "\u003cb\u003eCapra&#39;s\u003c/b\u003e Kitchen is a Italian \u003cb\u003eRestaurant\u003c/b\u003e located in the Clarkson - Lorne Park \u003cbr\u003e\nneighbourhood of Mississauga. \u003cb\u003eCapra&#39;s\u003c/b\u003e Kitchen serves Italian, Mediterranean&nbsp;...",
+   "cacheId": "61Z_3kT4VQAJ",
+   "formattedUrl": "www.capraskitchen.com/",
+   "htmlFormattedUrl": "www.\u003cb\u003ecapras\u003c/b\u003ekitchen.com/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "224",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdetlVmDnsZx-Q0DEi3Vl_vFOsIsn9CZRbOjtOBFSKZkU4-DOZh0zXc3tb"
+     }
+    ],
+    "organization": [
+     {
+      "name": "Capra's Kitchen",
+      "url": "YP Dine"
+     }
+    ],
+    "postaladdress": [
+     {
+      "streetaddress": "1834 Lakeshore Rd. W.",
+      "addresslocality": "Mississauga",
+      "addressregion": "ON"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;",
+      "og:title": "Home | Capra's Kitchen",
+      "og:site_name": "Capra's Kitchen",
+      "og:url": "http://www.capraskitchen.com/",
+      "og:description": "Capra's Kitchen is a Italian Restaurant located in the Clarkson - Lorne Park neighbourhood of Mississauga.  Capra's Kitchen serves Italian, Mediterranean cuisine and features Award Winning, Brunch, ...",
+      "og:latitude": "43.5153238",
+      "og:longitude": "-79.6246227",
+      "og:street-address": "1834 Lakeshore Rd. W.",
+      "og:postal-code": "L5J 1J7",
+      "og:type": "Restaurant",
+      "og:image": "http://www.capraskitchen.com/restaurants/capras-kitchen/website/images/header-logo.png",
+      "og:locality": "Mississauga",
+      "og:region": "ON",
+      "og:country-name": "Canada"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.capraskitchen.com/restaurants/capras-kitchen/website/images/header-logo.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Capra, Cham - Restaurant Reviews, Phone Number & Photos ...",
+   "htmlTitle": "\u003cb\u003eCapra\u003c/b\u003e, Cham - \u003cb\u003eRestaurant\u003c/b\u003e Reviews, Phone Number &amp; Photos ...",
+   "link": "https://www.tripadvisor.com/Restaurant_Review-g1096368-d4506570-Reviews-Capra-Cham.html",
+   "displayLink": "www.tripadvisor.com",
+   "snippet": "Capra, Cham: See 71 unbiased reviews of Capra, rated 4 of 5 on TripAdvisor and \nranked #5 of 28 restaurants in Cham.",
+   "htmlSnippet": "\u003cb\u003eCapra\u003c/b\u003e, Cham: See 71 unbiased reviews of \u003cb\u003eCapra\u003c/b\u003e, rated 4 of 5 on TripAdvisor and \u003cbr\u003e\nranked #5 of 28 \u003cb\u003erestaurants\u003c/b\u003e in Cham.",
+   "cacheId": "RU2yAFSMkrgJ",
+   "formattedUrl": "https://www.tripadvisor.com/Restaurant_Review-g1096368-d4506570- Reviews-Capra-Cham.html",
+   "htmlFormattedUrl": "https://www.tripadvisor.com/\u003cb\u003eRestaurant\u003c/b\u003e_Review-g1096368-d4506570- Reviews-\u003cb\u003eCapra\u003c/b\u003e-Cham.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "184",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmv4p9GveeNDNlgpCK7RUiS_tCb2O2XCzDvGV5Oz9yMCDOYcce2ORXoE"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Europe",
+      "title": "Europe"
+     },
+     {
+      "url": "Switzerland",
+      "title": "Switzerland"
+     },
+     {
+      "url": "Canton of Zug",
+      "title": "Canton of Zug"
+     },
+     {
+      "url": "Cham",
+      "title": "Cham"
+     },
+     {
+      "url": "Cham Restaurants",
+      "title": "Cham Restaurants"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "Capra, Cham - Restaurant Reviews, Phone Number & Photos - TripAdvisor",
+      "og:description": "Capra, Cham: See 71 unbiased reviews of Capra, rated 4 of 5 on TripAdvisor and ranked #5 of 28 restaurants in Cham.",
+      "og:image": "https://media-cdn.tripadvisor.com/media/photo-s/0a/87/a2/d4/burgers.jpg",
+      "og:image:width": "550",
+      "og:image:height": "368",
+      "fb:pages": "5863091683",
+      "al:ios:app_name": "TripAdvisor",
+      "al:ios:app_store_id": "284876795",
+      "twitter:app:id:ipad": "284876795",
+      "twitter:app:id:iphone": "284876795",
+      "al:ios:url": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g1096368-d4506570-Reviews-m33762-Capra-Cham.html",
+      "twitter:app:url:ipad": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g1096368-d4506570-Reviews-m33762-Capra-Cham.html",
+      "twitter:app:url:iphone": "tripadvisor://www.tripadvisor.com/Restaurant_Review-g1096368-d4506570-Reviews-m33762-Capra-Cham.html"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://media-cdn.tripadvisor.com/media/photo-s/0a/87/a2/d4/burgers.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Capra - Home | Facebook",
+   "htmlTitle": "\u003cb\u003eCapra\u003c/b\u003e - Home | Facebook",
+   "link": "https://www.facebook.com/cafecapra/",
+   "displayLink": "www.facebook.com",
+   "snippet": "Super schöne Restaurant, nette Bedienung, aber katastrophale Besitzer ( Chef) !!\n!! Es gefällt ihm nicht, wenn man nur eine Vorspeise bestellt und Cocktails und ...",
+   "htmlSnippet": "Super schöne \u003cb\u003eRestaurant\u003c/b\u003e, nette Bedienung, aber katastrophale Besitzer ( Chef) !!\u003cbr\u003e\n!! Es gefällt ihm nicht, wenn man nur eine Vorspeise bestellt und Cocktails und&nbsp;...",
+   "cacheId": "bS_QJ73kCQEJ",
+   "formattedUrl": "https://www.facebook.com/cafecapra/",
+   "htmlFormattedUrl": "https://www.facebook.com/\u003cb\u003ecaf\u003c/b\u003ee\u003cb\u003ecapra\u003c/b\u003e/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQb3JKBwoCIozEKKBrlhQg-lTHAka3Gg3tkpXcvdFMqnbFJUe5aasN8XR0"
+     }
+    ],
+    "restaurant": [
+     {
+      "image": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p720x720/22728750_878199845669479_3966216383648774205_n.jpg?oh=34210ff1dda4e7460d2c91dc368a23aa&oe=5A7FAF9A"
+     }
+    ],
+    "aggregaterating": [
+     {
+      "ratingvalue": "4.6",
+      "ratingcount": "127"
+     }
+    ],
+    "metatags": [
+     {
+      "referrer": "default",
+      "al:android:app_name": "Facebook",
+      "al:android:package": "com.facebook.katana",
+      "al:android:url": "fb://page/142976582525146?referrer=app_link",
+      "al:ios:app_name": "Facebook",
+      "al:ios:app_store_id": "284882215",
+      "al:ios:url": "fb://page/?id=142976582525146",
+      "og:title": "Capra",
+      "og:description": "Capra, Cham, Switzerland. 2,170 likes · 271 talking about this · 347 were here. heimelig, freundlich und lecker!",
+      "og:image": "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p200x200/22728750_878199845669479_3966216383648774205_n.jpg?oh=150ee2861e5e87c4ab4fba535c804be0&oe=5A79B720",
+      "og:url": "https://www.facebook.com/cafecapra/"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=805879549568176"
+     }
+    ],
+    "listitem": [
+     {
+      "item": "Places",
+      "name": "Places",
+      "position": "1"
+     },
+     {
+      "item": "Cham, Switzerland",
+      "name": "Cham, Switzerland",
+      "position": "2"
+     },
+     {
+      "item": "Restaurant",
+      "name": "Restaurant",
+      "position": "3"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "O&B Café Grill Yonge & Front - Sophisticated downtown spot for ...",
+   "htmlTitle": "O&amp;B Café Grill Yonge &amp; Front - Sophisticated downtown spot for ...",
+   "link": "https://yonge-and-front.obcafegrill.com/",
+   "displayLink": "yonge-and-front.obcafegrill.com",
+   "snippet": "A sophisticated downtown Toronto restaurant for casual upscale dining, weekend \nbrunch and after-work drinks.",
+   "htmlSnippet": "A sophisticated downtown Toronto \u003cb\u003erestaurant\u003c/b\u003e for casual upscale dining, weekend \u003cbr\u003e\nbrunch and after-work drinks.",
+   "cacheId": "NyX02RTcX0oJ",
+   "formattedUrl": "https://yonge-and-front.obcafegrill.com/",
+   "htmlFormattedUrl": "https://yonge-and-front.ob\u003cb\u003ecaf\u003c/b\u003eegrill.com/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcINphoDB9iamAkZx7s91fBgoSfxoKRlKfvEKX5dkb9EYlWwlt_yIGJZvH"
+     }
+    ],
+    "metatags": [
+     {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "O&B Café Grill Yonge & Front - Sophisticated downtown spot for casual upscale dining",
+      "og:description": "A sophisticated downtown Toronto restaurant for casual upscale dining, weekend brunch and after-work drinks.",
+      "og:url": "https://yonge-and-front.obcafegrill.com/",
+      "og:site_name": "O&B Café Grill Yonge & Front",
+      "twitter:card": "summary",
+      "twitter:description": "A sophisticated downtown Toronto restaurant for casual upscale dining, weekend brunch and after-work drinks.",
+      "twitter:title": "O&B Café Grill Yonge & Front - Sophisticated downtown spot for casual upscale dining",
+      "msvalidate.01": "4FD73997F814CDE5920BCA13D7235B9E",
+      "msapplication-tileimage": "https://cdn.oliverbonacininetwork.com/wp-content/uploads/sites/35/2016/11/cropped-Oliver-bonacini-cafe-grill-favicon-300x300.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://yonge-and-front.obcafegrill.com/wp-content/uploads/sites/35/2016/11/Career-Masthead.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Brickhouse Cafe & Saloon",
+   "htmlTitle": "Brickhouse Cafe &amp; Saloon",
+   "link": "http://brickhousesf.com/",
+   "displayLink": "brickhousesf.com",
+   "snippet": "We are currently serving Lunch. View the menu. Happy Hour is Happening Now. \n$4 Draft Beer / $5 Wine Glass / $5 Well Drink / $6 Bar Food ...",
+   "htmlSnippet": "We are currently serving Lunch. View the menu. Happy Hour is Happening Now. \u003cbr\u003e\n$4 Draft Beer / $5 Wine Glass / $5 Well Drink / $6 Bar \u003cb\u003eFood\u003c/b\u003e&nbsp;...",
+   "cacheId": "m2SloalMbnEJ",
+   "formattedUrl": "brickhousesf.com/",
+   "htmlFormattedUrl": "brickhousesf.com/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "285",
+      "height": "177",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHifAxp6GWE4CIMH66h8m_q73uX9jPU6n7S1ZYX2TA2WHuHM0lrGXeCVw"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "image": "http://brickhousesf.com/logo.png",
+      "twitter:card": "summary",
+      "twitter:title": "BrickhouseCafe",
+      "twitter:site": "@brickhousesf",
+      "twitter:image:src": "http://brickhousesf.com//logo.png",
+      "og:title": "BrickhouseCafe",
+      "og:image": "http://brickhousesf.com/logo.png",
+      "og:url": "http://brickhousesf.com",
+      "og:site_name": "BrickhouseCafe",
+      "og:locale": "en_US",
+      "fb:admins": "douglas.a.barton",
+      "fb:app_id": "1152723528159319",
+      "og:type": "website",
+      "og:description": "We Are An Urban Location With The Comfort Of Home"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://brickhousesf.com/wp-content/uploads/2017/05/cropped-brickhousecafe.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "La Pecora Bianca",
+   "htmlTitle": "La Pecora Bianca",
+   "link": "http://www.lapecorabianca.com/",
+   "displayLink": "www.lapecorabianca.com",
+   "snippet": "Stylish, bright locale featuring market-driven Italian cuisine, regional wines & \napéritifs on tap located in Midtown & Nomad.",
+   "htmlSnippet": "Stylish, bright locale featuring market-driven Italian cuisine, regional wines &amp; \u003cbr\u003e\napéritifs on tap located in Midtown &amp; Nomad.",
+   "cacheId": "t0hmhIFSXdsJ",
+   "formattedUrl": "www.lapecorabianca.com/",
+   "htmlFormattedUrl": "www.lapecorabianca.com/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "318",
+      "height": "159",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzEFoO-qYa2ehA6pjRTSKcl1_vHI1Mj3Mo43h8UCfOg_GB77Y6vxB3wSA"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "distribution": "Global",
+      "rating": "General",
+      "og:site_name": "La Pecora Bianca",
+      "og:title": "La Pecora Bianca",
+      "og:type": "website",
+      "og:url": "http://www.lapecorabianca.com/",
+      "og:description": "Stylish, bright locale featuring market-driven Italian cuisine, regional wines & apéritifs on tap located in Midtown & Nomad",
+      "og:image": "https://getbento.imgix.net/accounts/fb39456cffb907a861cd99a575bbbc26/media/accounts/media/pD0sbHH7Qp669EuKrmKP_LaPecora_Logo_Long.png?w=1200&fit=fill&auto=compress,format&h=600&bg=EDEDF1&pad=100",
+      "twitter:card": "summary",
+      "twitter:title": "La Pecora Bianca",
+      "twitter:description": "Stylish, bright locale featuring market-driven Italian cuisine, regional wines & apéritifs on tap located in Midtown & Nomad",
+      "twitter:site": "@PecoraBiancaNYC",
+      "twitter:creator": "@PecoraBiancaNYC",
+      "twitter:image": "https://getbento.imgix.net/accounts/fb39456cffb907a861cd99a575bbbc26/media/accounts/media/pD0sbHH7Qp669EuKrmKP_LaPecora_Logo_Long.png?w=1200&fit=fill&auto=compress,format&h=600&bg=EDEDF1&pad=100"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://getbento.imgix.net/accounts/fb39456cffb907a861cd99a575bbbc26/media/accounts/media/pD0sbHH7Qp669EuKrmKP_LaPecora_Logo_Long.png?w=1200&fit=fill&auto=compress,format&h=600&bg=EDEDF1&pad=100"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Farm to Table Dining at The Capra Restaurant | The Capra",
+   "htmlTitle": "Farm to Table Dining at The \u003cb\u003eCapra Restaurant\u003c/b\u003e | The \u003cb\u003eCapra\u003c/b\u003e",
+   "link": "http://www.capra.ch/gastronomy",
+   "displayLink": "www.capra.ch",
+   "snippet": "From local delicacies at breakfast to tasting menus by our 15 Gault Millau point \nchef, food at The Capra always exceeds expectations.",
+   "htmlSnippet": "From local delicacies at breakfast to tasting menus by our 15 Gault Millau point \u003cbr\u003e\nchef, \u003cb\u003efood\u003c/b\u003e at The \u003cb\u003eCapra\u003c/b\u003e always exceeds expectations.",
+   "cacheId": "PJ871qT45vQJ",
+   "formattedUrl": "www.capra.ch/gastronomy",
+   "htmlFormattedUrl": "www.\u003cb\u003ecapra\u003c/b\u003e.ch/gastronomy",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2pLgRQ0hUgSwdU9mPhKkvcojuc8YBekjzqRx-uExBYbdicnCE4RrIG5E"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Farm to Table Dining at The Capra Restaurant | The Capra",
+      "og:description": "From local delicacies at breakfast to tasting menus by our 15 Gault Millau point chef, food at The Capra always exceeds expectations.",
+      "og:url": "http://www.capra.ch/gastronomy",
+      "og:site_name": "The Capra",
+      "article:publisher": "https://www.facebook.com/TheCapra/",
+      "twitter:card": "summary",
+      "twitter:description": "From local delicacies at breakfast to tasting menus by our 15 Gault Millau point chef, food at The Capra always exceeds expectations.",
+      "twitter:title": "Farm to Table Dining at The Capra Restaurant | The Capra"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.capra.ch/wp-content/uploads/2015/10/Dining-Header-1-1024x683.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Dubai - Asha's Restaurants - Spices singing in harmony",
+   "htmlTitle": "Dubai - Asha&#39;s \u003cb\u003eRestaurants\u003c/b\u003e - Spices singing in harmony",
+   "link": "https://ashasrestaurants.com/dubai/",
+   "displayLink": "ashasrestaurants.com",
+   "snippet": "The original Asha's, and our flagship restaurant in the region, the WAFI location \noffers a choice of intimate indoor seating or al fresco dining on the landscaped ...",
+   "htmlSnippet": "The original Asha&#39;s, and our flagship \u003cb\u003erestaurant\u003c/b\u003e in the region, the WAFI location \u003cbr\u003e\noffers a choice of intimate indoor seating or al fresco dining on the landscaped&nbsp;...",
+   "cacheId": "sCVE1Vk7R_kJ",
+   "formattedUrl": "https://ashasrestaurants.com/dubai/",
+   "htmlFormattedUrl": "https://ashas\u003cb\u003erestaurants\u003c/b\u003e.com/dubai/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "297",
+      "height": "170",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR-8xbm9bY5NCMvUzkB8lj-6b3Yyeuc_0d8AKW8nj9XGIqAG2vEkb4Geg0"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,user-scalable=no",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Dubai - Asha's Restaurants - Spices singing in harmony",
+      "og:description": "Experience Asha’s Dubai located in one of the city’s most popular leisure and retail destinations",
+      "og:url": "https://ashasrestaurants.com/dubai/",
+      "og:site_name": "Asha's Restaurants",
+      "article:publisher": "https://www.facebook.com/AshasOriginal/",
+      "fb:admins": "100014448648308",
+      "og:image": "https://ashasrestaurants.com/wp-content/uploads/2017/05/Ashas_Restaurants-home-slide1.1.jpg",
+      "og:image:secure_url": "https://ashasrestaurants.com/wp-content/uploads/2017/05/Ashas_Restaurants-home-slide1.1.jpg",
+      "twitter:card": "summary_large_image",
+      "twitter:description": "Experience Asha’s Dubai located in one of the city’s most popular leisure and retail destinations",
+      "twitter:title": "Dubai - Asha's Restaurants - Spices singing in harmony",
+      "twitter:site": "@ashasmiddleeast",
+      "twitter:image": "https://ashasrestaurants.com/wp-content/uploads/2017/05/Ashas_Restaurants-home-slide1.1.jpg",
+      "twitter:creator": "@ashasmiddleeast",
+      "msapplication-tileimage": "https://ashasrestaurants.com/wp-content/uploads/2017/05/cropped-asha_favicon_512x512-270x270.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://ashasrestaurants.com/wp-content/uploads/2017/05/Ashas_Restaurants-home-slide1.1.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "capra-delikatessen.ch",
+   "htmlTitle": "\u003cb\u003ecapra\u003c/b\u003e-delikatessen.ch",
+   "link": "http://capra-delikatessen.ch/",
+   "displayLink": "capra-delikatessen.ch",
+   "snippet": "Montag bis Freitag 11-14 und 18-Schluss Reservation unter 041 780 50 85 capra \ndiem! https://www.facebook.com/cafecapra.",
+   "htmlSnippet": "Montag bis Freitag 11-14 und 18-Schluss Reservation unter 041 780 50 85 \u003cb\u003ecapra\u003c/b\u003e \u003cbr\u003e\ndiem! https://www.facebook.com/\u003cb\u003ecafecapra\u003c/b\u003e.",
+   "cacheId": "3XtIQBFE85kJ",
+   "formattedUrl": "capra-delikatessen.ch/",
+   "htmlFormattedUrl": "\u003cb\u003ecapra\u003c/b\u003e-delikatessen.ch/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGezLXul2-lHCyaU1RwYMh3WfbJTmLBlk1UwWkKG7r0ICetRJkiFTgjzM"
+     }
+    ],
+    "metatags": [
+     {
+      "xar files": "index_htm_files/xr_files.txt",
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://capra-delikatessen.ch/index_htm_files/42.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
