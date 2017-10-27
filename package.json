@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/dev"
+    "start": "node ./bin/dev"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
