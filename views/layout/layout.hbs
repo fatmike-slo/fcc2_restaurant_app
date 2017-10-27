@@ -9,6 +9,7 @@
   <!-- load stylesheets -->
   <link rel="stylesheet" href="/stylesheets/bootstrap.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
   <!-- load scripts -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
   <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
@@ -16,9 +17,9 @@
   <script type="text/javascript" src="/javascripts/js.js"></script>
 </head>
 <body>
-  <div id="wrapper" class="wrapper">
+  {{>header}}
   {{{body}}}
-  </div>
+
   {{>footer}}
 </body>
 </html>

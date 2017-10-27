@@ -4,6 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 
+// twitter
+let twitter = require("./routes/twitterLogin");
+// passport for twitter login 
+const passport = require("passport");
+const Strategy = require("passport-twitter").Strategy;
+
+
 
 const cookieParser = require('cookie-parser');
 const session = require("express-session");
@@ -51,6 +58,10 @@ app.use(session({
   resave: false
 }));
 
+// init passport set for TWITTER LOGIN
+app.use(passport.initialize());
+app.use(passport.session());
+
 //activate routes
 app.use('/', index);
 app.use("/register", register);
@@ -58,7 +69,7 @@ app.use("/utilities", utilities);
 app.use("/login", login);
 app.use("/dashboard", dashboard);
 app.use("/query", query);
-
+app.use("/twitter", twitter);
 
 
 // catch 404 and forward to error handler

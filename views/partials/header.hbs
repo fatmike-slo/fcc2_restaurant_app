@@ -1,35 +1,61 @@
-    <!-- Navigation -->
-    <div class="row">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Dinner finder</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-            {{#if username}} 
-            <div class="col-sm-6 col-md-6 col-lg-8"></div>
-            {{else}}
-            <span style="margin-left:200px;"class="nav-item">
-            {{>login}}  
-            </span>
-            {{/if}}
+<div id="customNavbar" class="bg-dark">
+  <div class="row navbarRow">
+    <div class="col-sm-12 col-md-6 col-lg-6 leftSideNav">
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        {{#if username}}
+        <a href="/dashboard/{{username}}"><h4 class="brand">Dinner Finder&nbsp;<i class="fa fa-cutlery" aria-hidden="true"></i></h4></a>
+        {{else}}
+        <a href="/"><h4 class="brand">Dinner Finder&nbsp;<i class="fa fa-cutlery" aria-hidden="true"></i></h4></a>
+        {{/if}}
+      </div>
 
-            {{#if username}}
-              <span class="nav-item ">
-                <a class="nav-link" href="#">User:&nbsp;{{username}}&nbsp;&nbsp;</a>
-              </span>
-              {{/if}}
-              <ul style="margin-left:100px; float:right;" class="navbar-nav">
-                {{#if username}}
-                <li class="nav-item">
-                  <a class="nav-link" href="/logout">Log out</a>
-                </li>
-                {{else}}
-                <li class="nav-item">
-                  <a class="nav-link" href="/register">Sign up</a>
-                </li>            
-                {{/if}}
-              </ul>
-            </div>
-      </nav>
+      <div class="col-sm-12 col-md-8 col-lg-9 formWrapper">
+      {{#unless username}} 
+        <form class="input-group form input-group-sm" role="form" action="/login" method="POST">
+            <input type="text"  id="username" name="username" placeholder="Username" aria-describedby="sizing-addon1">
+            <input type="password"id="password" name="password" placeholder="Password" required>
+            <span class="input-group-btn"><button type="submit" class="btn btn-default">Log in</button></span>
+        </form> 
+
+      <!-- errors -->
+      {{#if errors}}
+      <div class="alert-danger errorDiv">
+      {{#each errors}}
+      <ul>
+        <li>{{this.msg}}</li>
+      </ul>
+      {{/each}}
+      </div>
+      {{/if}}
+
+
+        {{/unless}}
+      </div>
     </div>
+    {{#if username}}
+    <div class="col-sm-12 col-md-6 col-lg-6 rightSideNav_logged">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <p class="navbar-link">Signed in as&nbsp;&nbsp;<span style="color:#F5F5F5;">{{username}}</span></p>
+        </div>
+        <div class="col-sm-12 col-md-4 logout">
+        <a class="logOutBtn" href="/logout">Log out</a>
+        </div>
+      </div>
+    </div>
+    {{else}}
+    <div class="col-sm-12 col-md-6 col-lg-6 rightSideNav_notLogged">
+      <div class="row">
+        <div class="col-sm-4 col-md-4">
+          <p class="signUp"><a href="/register">Sign up</a></p>
+        </div>
+        <div class="col-sm-8 col-md-8">
+          <a href="/twitter/login/"><img class="twitterLoginBtn" src="images/twitterButton.png" alt="twitter login button"></a>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+  </div>
+</div>
+
+    

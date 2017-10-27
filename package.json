@@ -21,5 +21,9 @@
     "request": "^2.83.0",
     "serve-favicon": "~2.4.5",
     "yelp-fusion": "^1.0.3"
+  },
+  "devDependencies": {
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4"
   }
 }

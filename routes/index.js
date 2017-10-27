@@ -19,74 +19,67 @@ router.get('/', (req, res) => {
     }
 });
 
-// search -------------------------------------------
 router.post('/search', (req, res) => {
-    console.log('------------- dashboard/search POST ----------------');
-
-
-    if (!req.session.loggedOut) {
+    //--------------- "/" POST search -------------------------------
 
 
 
-        let userSearch = req.body.search
-        const token = process.env.YELPTOKEN;
-
-        // find yelp result and compare them if same data is present in db
-        yelpClient.search({
-            term: 'restaurant',
-            location: userSearch
-        }).then(response => {
-            // SESSION SearchPerformed ACTIVATED, global scope
-            req.session.searchPerformed = true;
-            let yelpData = JSON.parse(response.body);
-            let searchData = yelpData.businesses;
-            searchData.forEach((item) => {
-                item.count = 0;
-            });
-
-            Db.viewRestaurants((err, data) => {
-                if (err) {
-                    console.log(err);
-                }
-                // if there are no entries found in db
-                if (data.length !== 0) {
-                    // search if a restaurant in api reposnse is already in restaurant database
-                    searchData.forEach((yelpItem, index) => {
-                        // add populated restaurant to the sending array
-                        data.forEach((dbItem) => {
-                            if (dbItem.name === yelpItem.name) {
-                                yelpItem.count = dbItem.count;
-                                yelpItem.usersGoing = dbItem.whoIsGoing;
-                            }
-                        });
-                    });
-                    // SESSION searchData Created
-                    req.session.searchData = searchData;
-                    res.redirect("/");
-
-                } else {
-                    //if we find entry in db
-                    // podamo naprej SESSION PERFOMED SEARCH IN SESSION SEARCH DATA ---> NA "/"
-                    req.session.searchData = searchData;
-                    res.redirect("/");
-                }
-            });
-        }).catch(e => {
-            console.log(e);
+    let userSearch = req.body.search
+    const token = process.env.YELPTOKEN;
+    const yelpClient = yelp.client(token);
+    // find yelp result and compare them if same data is present in db
+    yelpClient.search({
+        term: 'restaurant',
+        location: userSearch
+    }).then(response => {
+        // SESSION SearchPerformed ACTIVATED, global scope
+        req.session.searchPerformed = true;
+        let yelpData = JSON.parse(response.body);
+        let searchData = yelpData.businesses;
+        searchData.forEach((item) => {
+            item.count = 0;
         });
-    }
-    else {
-        res.render("index");
-    }
+
+        Db.viewRestaurants((err, data) => {
+            if (err) {
+                console.log(err);
+            }
+            // if there are no entries found in db
+            if (data.length !== 0) {
+                // search if a restaurant in api reposnse is already in restaurant database
+                searchData.forEach((yelpItem, index) => {
+                    // add populated restaurant to the sending array
+                    data.forEach((dbItem) => {
+                        if (dbItem.name === yelpItem.name) {
+                            yelpItem.count = dbItem.count;
+                            yelpItem.usersGoing = dbItem.whoIsGoing;
+                        }
+                    });
+                });
+                // SESSION searchData Created
+                req.session.searchData = searchData;
+                res.redirect("/");
+
+            } else {
+                //if we find entry in db
+                // podamo naprej SESSION PERFOMED SEARCH IN SESSION SEARCH DATA ---> NA "/"
+                req.session.searchData = searchData;
+                res.redirect("/");
+            }
+        });
+    }).catch(e => {
+        console.log(e);
+    });
 });
 
 
 // logout -----------------------------------------------
 router.get('/logout', (req, res) => {
-    req.session.loggedOut = true;
-    req.session.username = "";
-    req.session.searchData = {};
-    req.session.searchPerformed = false;
+    req.session.destroy();
+    // req.session.username = "";
+    // req.session.searchData = {};
+    // req.session.searchPerformed = false;
+    // req.session.passport = {};
     console.log("logged out: session cleared->", req.session);
     res.redirect("/");
 });

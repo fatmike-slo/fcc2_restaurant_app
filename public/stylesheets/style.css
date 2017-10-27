@@ -1,9 +1,214 @@
-
-body {
-  padding-top: 54px;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #919191;
 }
 
-#wrapper {
+.pimg1 {
+  background-image: url("./../images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  padding-bottom:200px;
+}
+
+
+#customNavbar {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height:80px;
+  margin:0;
+  padding:0;
+}
+
+.navbarRow {
+  margin-top:25px;
+}
+
+.brand {
+  float:left; 
+  margin-left:5px;
+  margin-top:-15px;
+}
+.formWrapper {
+  float:left;
+}
+.rightSideNav_logged>.row {
+  float:right;
+}
+.rightSideNav_notLogged>.row {
+  float:right;
+}
+.logout {
+  width:150px; 
+
+}
+
+.registerWrapper {
+  padding-top:100px;
+}
+
+
+
+.presentationText {
+  padding-top:150px;
+  margin:0 auto;
+  justify-content: flex-start;;
+  width: 350px;
+  color: #fff;
+  font-size: 1.5em;
+  text-shadow: 2px 3px #000;
+  
+}
+@media screen and (max-width:767px) {
+  #customNavbar {
+    height: 180px;
+  }
+  .rightSideNav_logged>.row {
+    margin-left:250px;
+    float:none;
+   }
+  .rightSideNav_notLogged>.row {
+    margin-left:110px;
+    margin-top:15px;
+    float:none;
+   }
+   .brand {
+    margin-left:5px;
+    text-align: center;
+    float: none;
+   }
+   .form {
+     margin-left:100px;
+   }
+   .presentationText {
+    padding-top:310px;
+  }
+  .registerWrapper {
+    padding-top:200px;
+  } 
+}
+@media screen and (max-width:543px) {
+  #customNavbar {
+    height: 240px;
+  }
+  .form {
+    display: block;
+  }
+  .rightSideNav_logged {
+    margin-top:50px;
+    margin-left:-110px;
+  }
+  .registerWrapper {
+    padding-top:250px;
+  } 
+  
+}
+@media screen and (max-width:376px) {
+  #customNavbar {
+    height: 160px;
+  }
+  .signUp {
+    width:100px;
+  }
+  .formWrapper {
+    display: block;
+    margin-left:130px;
+  }
+  .rightSideNav_logged {
+    margin-left:50px;
+    margin-top:20px;
+  }
+  .rightSideNav_logged>.row {
+    margin-left:73px;
+    float:none;
+   }
+   .twitterLoginBtn {
+    position: fixed;
+    width:110px;
+  } 
+  .brand {
+    display: none;
+  }
+  .rightSideNav_notLogged {
+    margin:0;
+    padding:0;
+    width:170px;
+    position: fixed;
+    margin-top:-5px;
+    margin-left:-100px;
+  }
+
+  .presentationText {
+    padding-top:200px;
+  }
+  .logOutBtn {
+    margin-left:20px;
+  }
+
+}
+
+
+.twitterLoginBtn {
+  margin-right:50px;
+}
+
+
+.cardWrapper {
+  margin-top: 130px;
+}
+
+.thumbImg {
+  border: 20px #f3f3f3 solid;
+}
+
+.restaurant-info {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f3;
+}
+
+.ratingImg {
+  margin-bottom: 10px;
+}
+
+.restaurant-info>.row>.col-md-6>ul {
+  list-style: none;
+  text-align: left;
+}
+
+i {
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width:767px) {
+  .restaurant-info>.row>.col-md-6>ul {
+    text-align: center;
+  }
+
+}
+
+.errorDiv {
+  background: red;
+  
+}
+.attendButton {
+  margin-top: 25px;
+}
+
+
+footer {
+  padding:0;
+}
+
+/* #wrapper {
   height:100%;
   position: relative;
   background: url("./../images/background.jpg") center; 
@@ -14,7 +219,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-}
+} */
+
 
 /* 
 @media (min-width: 992px) {
@@ -32,36 +238,53 @@ body {
     padding:0;
   }
 } */
-.portfolio-item {
+
+
+/* .portfolio-item {
   margin-bottom: 30px;
 }
 
 .pagination {
   margin-bottom: 30px;
-}
+} */
+
 
 /* registerNewUserForm */
-.errorDiv {
+
+
+/* .errorDiv {
   margin-top:20px;
 }
 .errorDiv>ul {
   list-style: none;
-}
+} */
+
 
 /* header */
 
+
 /* dashboard */
-.component_wrappers {
-  margin-top:50px;
+
+
+/* .component_wrappers { */
+
+
+/* margin-top:50px;
   margin-bottom:20px;
-}
+} */
+
 
 /* main content */
-.card-body>h5>a>button {
+
+
+/* .card-body>h5>a>button {
   margin-left:25px;
-}
+} */
+
 
 /* login form */
-#loginFormWRapper {
+
+
+/* #loginFormWRapper {
   margin-top:50px;
-}
+} */
