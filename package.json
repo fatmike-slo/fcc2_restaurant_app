@@ -19,6 +19,7 @@
     "morgan": "~1.9.0",
     "nodemon": "^1.12.1",
     "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4",
     "request": "^2.83.0",
     "serve-favicon": "~2.4.5",
     "yelp-fusion": "^1.0.3"
